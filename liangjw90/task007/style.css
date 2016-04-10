@@ -1,0 +1,71 @@
+/* reset */
+html,body,div,h1,h2,h3,h4,h5,p,ul,li{
+	margin: 0;
+	padding:0;
+}
+
+/* page */
+body{
+	min-width: 1280px;
+}
+
+/* head */
+.g-hd{
+	position: relative;
+	height: 57px;
+	background: #ccc;
+}
+.m-logo{
+	position: absolute;
+	width: 66px;
+	height: 31px;
+	background: url(img/logo.png) no-repeat;
+	padding-left: 42px;
+	top: 13px;
+	left: 59px;
+}
+.m-logo h2{
+	font: 21px/31px SimHei;
+	color: #393A3A;
+}
+.m-nav{
+	width: 580px;
+	height: 57px;
+	position: absolute;
+	right: 44px;
+	display: block;
+	font: 14px "Microsoft YaHei";
+	color: #787B83;
+}
+.m-nav li{
+	display: inline-block;
+	/* height: 57px; */
+	padding-left:23px; 
+	padding-right:23px; 
+	padding-top: 17px;
+	padding-bottom: 20px;
+}
+li.u-login{
+	padding-left: 27px;
+	background: url(img/login.png) no-repeat 8px 20px;
+	color: #E74F4D;
+
+}
+.m-nav li:hover{
+	border-bottom: solid 5px #E74F4D;
+	color: #E74F4D;
+	padding-bottom: 15px;
+	transition: all .3s;
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+}
+/* main */
+.g-mn{
+
+}
+
+/* footer */
+.g-ft{
+
+}
